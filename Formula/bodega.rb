@@ -23,28 +23,28 @@
 class Bodega < Formula
   desc "Local-first AI coding agent (TUI + headless) with bundled backend"
   homepage "https://github.com/Mayimbe07/Bodegaone-CLI"
-  version "0.0.0-test.glibc1"
+  version "0.1.1"
   license :cannot_represent # proprietary (free to use, commercial license required)
 
   on_macos do
     on_arm do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.0.0-test.glibc1/bodega-darwin-arm64.tar.gz"
-      sha256 "d6b63d870e2c3aacf5e3e07fc081827ab4b2c1cefffd98176686cdb289b1ccf6"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.1/bodega-darwin-arm64.tar.gz"
+      sha256 "75991132ace62d5b2d9daacf2a1f2cc3bf4831fec488ab5606313e9c195f9719"
     end
     on_intel do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.0.0-test.glibc1/bodega-darwin-amd64.tar.gz"
-      sha256 "3c9ba86fd2711922e2184f7e1b15dbb0c8d96aa95ddcf3ff8b254cc3fdd080e0"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.1/bodega-darwin-amd64.tar.gz"
+      sha256 "ac7711cb76613210f105e35c354deeffc5d77c3b66814fa83ea1a31355986398"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.0.0-test.glibc1/bodega-linux-arm64.tar.gz"
-      sha256 "0a004df9a885d8d6c98a3df4e29b82634be4ec115b2e0e9aee37c0983a427553"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.1/bodega-linux-arm64.tar.gz"
+      sha256 "3f54621454102f5097428be35f1e2130de71186c8e9baca0337ee61e4c83b834"
     end
     on_intel do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.0.0-test.glibc1/bodega-linux-amd64.tar.gz"
-      sha256 "4f358a6e01d373d4a9329e394532e702faa15b1c733f2574cbd0a4234914dbff"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.1/bodega-linux-amd64.tar.gz"
+      sha256 "253f8444be792bb34f815ad1811848b76a3e0944c37cf7b2469f733ae7f08df1"
     end
   end
 
