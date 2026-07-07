@@ -1,7 +1,8 @@
 # Homebrew formula for Bodega One Code.
 #
-# Tap usage:
-#   brew tap Mayimbe07/bodega https://github.com/Mayimbe07/homebrew-bodega
+# Tap usage (tap repo: https://github.com/BodegaoneAI/homebrew-bodega — live
+# since v0.1.0; the release workflow pushes each stamped formula to it):
+#   brew tap bodegaoneai/bodega
 #   brew install bodega
 #
 # Homebrew is the clean macOS install path: `brew` strips the com.apple.quarantine
@@ -22,28 +23,28 @@
 class Bodega < Formula
   desc "Local-first AI coding agent (TUI + headless) with bundled backend"
   homepage "https://github.com/Mayimbe07/Bodegaone-CLI"
-  version "0.1.0"
+  version "0.0.0-test.glibc1"
   license :cannot_represent # proprietary (free to use, commercial license required)
 
   on_macos do
     on_arm do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.0/bodega-darwin-arm64.tar.gz"
-      sha256 "b508dc7e5ac15eeb612586680fc26986dc13211746da51aeb99310ff04ad7478"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.0.0-test.glibc1/bodega-darwin-arm64.tar.gz"
+      sha256 "d6b63d870e2c3aacf5e3e07fc081827ab4b2c1cefffd98176686cdb289b1ccf6"
     end
     on_intel do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.0/bodega-darwin-amd64.tar.gz"
-      sha256 "ff25f433912a1f2f4bb361d7852156a191e182b668cb6e6f4bcdf472b5ce3599"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.0.0-test.glibc1/bodega-darwin-amd64.tar.gz"
+      sha256 "3c9ba86fd2711922e2184f7e1b15dbb0c8d96aa95ddcf3ff8b254cc3fdd080e0"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.0/bodega-linux-arm64.tar.gz"
-      sha256 "df62ed24b9dbd07b03d11c7cb6842aea431798d877215cdf83cb7f4339ac6fa2"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.0.0-test.glibc1/bodega-linux-arm64.tar.gz"
+      sha256 "0a004df9a885d8d6c98a3df4e29b82634be4ec115b2e0e9aee37c0983a427553"
     end
     on_intel do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.0/bodega-linux-amd64.tar.gz"
-      sha256 "94d36b84e272abb35d3a00cd334d04663bafa1a11299cbcb90fbd59b5a72e708"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.0.0-test.glibc1/bodega-linux-amd64.tar.gz"
+      sha256 "4f358a6e01d373d4a9329e394532e702faa15b1c733f2574cbd0a4234914dbff"
     end
   end
 
