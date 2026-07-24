@@ -23,28 +23,28 @@
 class Bodega < Formula
   desc "Local-first AI coding agent (TUI + headless) with bundled backend"
   homepage "https://github.com/Mayimbe07/Bodegaone-CLI"
-  version "0.1.4"
+  version "0.1.5"
   license :cannot_represent # proprietary (free to use, commercial license required)
 
   on_macos do
     on_arm do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.4/bodega-darwin-arm64.tar.gz"
-      sha256 "46db0a50169e1640d1fab8054245fe9f3a49814f187b8facbad9eb246c69905c"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.5/bodega-darwin-arm64.tar.gz"
+      sha256 "e50c4ad987e6460f3304d88c40c398c436126103f49bfb8bc584138fe469397d"
     end
     on_intel do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.4/bodega-darwin-amd64.tar.gz"
-      sha256 "163f611c10904dc41217b59894fa404e8e7b4e3d9e08a28993504972b02226cb"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.5/bodega-darwin-amd64.tar.gz"
+      sha256 "2ea46bde27e8536adc03d82daa35a34421378424acfbbe6e0e33ef93a3d5550b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.4/bodega-linux-arm64.tar.gz"
-      sha256 "c4c5f9acf60a43666958078303333e93753b3194cd6de84861aba9aa401a1458"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.5/bodega-linux-arm64.tar.gz"
+      sha256 "1f5e5f431924be7e4ecd9deff6adfd508bafdf4a8cc0b68bd5b8989703562457"
     end
     on_intel do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.4/bodega-linux-amd64.tar.gz"
-      sha256 "f160f845e0114f1377501253f6ea9a1dc592f5bf3f68568fa636dffd9e7eed9a"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.5/bodega-linux-amd64.tar.gz"
+      sha256 "27eb6463a766ee2417aa8a550810609eb0950a0b5e7083995ff44554c09fc82f"
     end
   end
 
