@@ -23,28 +23,28 @@
 class Bodega < Formula
   desc "Local-first AI coding agent (TUI + headless) with bundled backend"
   homepage "https://github.com/Mayimbe07/Bodegaone-CLI"
-  version "0.1.7"
+  version "0.2.1"
   license :cannot_represent # Business Source License (BSL), converts to open after a distribution period; free to download and use, one-time commercial license at bodegaone.ai — see LICENSE
 
   on_macos do
     on_arm do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.7/bodega-darwin-arm64.tar.gz"
-      sha256 "857a82ac3f57353d854ad02decdef04f87c2a6456203f2ceec3f41b91ddd836d"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.1/bodega-darwin-arm64.tar.gz"
+      sha256 "fc33c604adfb62edf04985490e353518bdd3d89e3b62f88f260c5e447b925d04"
     end
     on_intel do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.7/bodega-darwin-amd64.tar.gz"
-      sha256 "d26281c5041f6c86264c6da6bd5d1b06c25ed69222c0f0075ac10746817d3571"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.1/bodega-darwin-amd64.tar.gz"
+      sha256 "21e8b3e057b2693209eb1b58920dd45775683e2892f7b8656157b5a59a5b5801"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.7/bodega-linux-arm64.tar.gz"
-      sha256 "dfdf64dd9c36c336aa9e8da74c16f7aab32c51eda8d33cfe9f5eb160eb2f739f"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.1/bodega-linux-arm64.tar.gz"
+      sha256 "23a85f7e0c35443b6a578c14819b6906b469f756bf0cf1e23bab95ef0ffcd4d3"
     end
     on_intel do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.1.7/bodega-linux-amd64.tar.gz"
-      sha256 "107c7ee8d4bb624bd6c1447f2ecc897e7e02cb9a5d0d69622605d82560085b75"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.1/bodega-linux-amd64.tar.gz"
+      sha256 "df9b7a2a38f63bcf32a51abc03298fc2d11e98cda10530a25280c623d6f3db16"
     end
   end
 
