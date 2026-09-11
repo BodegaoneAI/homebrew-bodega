@@ -23,28 +23,28 @@
 class Bodega < Formula
   desc "Local-first AI coding agent (TUI + headless) with bundled backend"
   homepage "https://github.com/Mayimbe07/Bodegaone-CLI"
-  version "0.2.9"
+  version "0.2.10"
   license :cannot_represent # Business Source License (BSL), converts to open after a distribution period; free to download and use, one-time commercial license at bodegaone.ai — see LICENSE
 
   on_macos do
     on_arm do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.9/bodega-darwin-arm64.tar.gz"
-      sha256 "a48c10c4dc0e7fcfa64938d4978083323e96a6c3940ba8cc5f301392a594b1a3"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.10/bodega-darwin-arm64.tar.gz"
+      sha256 "bf8c3328b28c322424240a86f58e09fbf5cea495ff549327a24378f3adef724e"
     end
     on_intel do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.9/bodega-darwin-amd64.tar.gz"
-      sha256 "42835baab602d3b33fa206864d740d3fb898f9c5b59f4b7d66eb611077fbfd16"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.10/bodega-darwin-amd64.tar.gz"
+      sha256 "d611d2f96efe80661e0c858bbd0674a26f4c595322094b772138bd8119e86b05"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.9/bodega-linux-arm64.tar.gz"
-      sha256 "e71dbeed5c25186ba4cb596f973a175280346665228b9061a3c6eb588ecffc33"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.10/bodega-linux-arm64.tar.gz"
+      sha256 "5e940319685582265a2774ef8037afeec54fa1317f12eea391a03ae693b0bf2d"
     end
     on_intel do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.9/bodega-linux-amd64.tar.gz"
-      sha256 "b6a499c27c7f392895cdc55a8621ee2714dad5e88cd9da8f21fe1c6bcb24a198"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.10/bodega-linux-amd64.tar.gz"
+      sha256 "81d5093608e4abd840e0555e3af412cea9806cac48b3f3662f7cafe226d1a663"
     end
   end
 
