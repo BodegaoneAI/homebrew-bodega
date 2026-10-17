@@ -23,28 +23,28 @@
 class Bodega < Formula
   desc "Local-first AI coding agent (TUI + headless) with bundled backend"
   homepage "https://github.com/Mayimbe07/Bodegaone-CLI"
-  version "0.2.15"
+  version "0.2.16"
   license :cannot_represent # Business Source License (BSL), converts to open after a distribution period; free to download and use, one-time commercial license at bodegaone.ai — see LICENSE
 
   on_macos do
     on_arm do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.15/bodega-darwin-arm64.tar.gz"
-      sha256 "652f63ec5ae9d161a0c6fa55b8f03948f3ea5f4d77f2b585c15ddfa8a118728c"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.16/bodega-darwin-arm64.tar.gz"
+      sha256 "1820861c658ea4cc70001f42ee276e40cb80426e63d07b38deb9bac273e4a9a9"
     end
     on_intel do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.15/bodega-darwin-amd64.tar.gz"
-      sha256 "8cc4659ff13ff1adafc49ff4a843e456559a166f14c3038510d3123300c136dc"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.16/bodega-darwin-amd64.tar.gz"
+      sha256 "65774974d89812cd060655af57e746eade25ea5cf548a1f9621439aad8c19c6f"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.15/bodega-linux-arm64.tar.gz"
-      sha256 "5f4c09d23d615df90ee758c7ed072eda13be57fba5f95e295638a730d5e9f854"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.16/bodega-linux-arm64.tar.gz"
+      sha256 "d6c8672861df92adbbc4368048026ba68790e8a8e937656f1c8e242c61f79f0e"
     end
     on_intel do
-      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.15/bodega-linux-amd64.tar.gz"
-      sha256 "502cc58e3b664dd14b61fae4d7f6d17a287195d4c6458988f4c83310641218e8"
+      url "https://github.com/BodegaoneAI/bodegaone-cli-releases/releases/download/v0.2.16/bodega-linux-amd64.tar.gz"
+      sha256 "509bb25d33783b3dc9928b9bb40005947f286298f214a926b24614d93b39f91a"
     end
   end
 
